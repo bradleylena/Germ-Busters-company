@@ -1,0 +1,333 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+html {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  min-width: 100%;
+  min-height: 100%;
+  background-image: url(dark-green-color-solid-background-1920x1080.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  scroll-behavior: smooth;
+}
+.navigation {
+  display: flex;
+  justify-content: space-between;
+  top: 0;
+  min-width: 100%;
+  position: fixed;
+  top: 0;
+  backdrop-filter: blur(15px);
+}
+.logo {
+  color: white;
+  top: 300px;
+  font-size: 27px;
+  cursor: pointer;
+}
+.logo::after {
+  content: "";
+  width: 0;
+  background-color: gold;
+  display: block;
+  height: 3px;
+  transition: width 1s ease;
+}
+.logo:hover::after {
+  width: 100%;
+}
+
+.links li {
+  color: white;
+  display: inline-block;
+  padding: 10px;
+}
+
+.links a {
+  color: gold;
+  font-size: 22px;
+  text-decoration: none;
+}
+.links a::after {
+  content: "";
+  width: 0;
+  background-color: gold;
+  display: block;
+  height: 3px;
+  transition: width 1s ease;
+}
+.links a:hover::after {
+  width: 100%;
+}
+.divpara {
+  color: white;
+  display: flex;
+  padding-top: 100px;
+  padding-right: 5%;
+  font-size: 25px;
+}
+
+button {
+  background-color: transparent;
+  font-size: 24px;
+  border: none;
+  text-decoration: none;
+}
+.button a {
+  color: gold;
+
+  text-decoration: none;
+  padding-bottom: 100px;
+}
+.button a::after {
+  content: "";
+  width: 0;
+  background-color: gold;
+  display: block;
+  height: 3px;
+  transition: width 1s ease;
+}
+.button a:hover::after {
+  width: 100%;
+}
+h1 {
+  color: white;
+  text-align: center;
+  font-size: 30px;
+  text-decoration: underline;
+  transition: all 1s ease;
+}
+h1:hover {
+  font-size: 32px;
+  transition: all 1s ease;
+}
+
+.abtdiv {
+  display: flex;
+  flex-direction: row-reverse;
+  color: white;
+}
+.abtdiv p {
+  text-align: right;
+  padding-left: 9%;
+  font-size: 22px;
+}
+.abtdiv a {
+  color: white;
+  padding-right: 20px;
+}
+.abtdiv img {
+  transition: 1s ease;
+}
+.abtdiv img:hover {
+  transform: scale(1.05);
+}
+.mission {
+  display: flex;
+  justify-content: space-between;
+}
+.mission p {
+  color: white;
+  font-size: 22px;
+  padding-left: 10%;
+}
+.founderbio {
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: row;
+}
+.founderbio p {
+  color: white;
+  font-size: 20px;
+  padding-left: 30px;
+}
+.founderbio img {
+  border-radius: 100%;
+}
+.parent {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(4, 1fr);
+  gap: 6px;
+}
+
+.div1 {
+  grid-row: span 4 / span 4;
+  color: white;
+  font-size: 22px;
+  transition: all 1s ease;
+}
+.div1:hover {
+  transform: scale(1.04);
+  transition: 1s ease;
+}
+
+.div2 {
+  grid-row: span 4 / span 4;
+  color: white;
+  font-size: 21px;
+  transition: all 1s ease;
+}
+.div2:hover {
+  transform: scale(1.04);
+  transition: 1s ease;
+}
+
+.div3 {
+  grid-row: span 4 / span 4;
+  color: white;
+  font-size: 21px;
+  transition: all 1s ease;
+}
+.div3:hover {
+  transform: scale(1.04);
+  transition: 1s ease;
+}
+
+h4::after {
+  content: "";
+  background-color: gold;
+  width: 0;
+  height: 3px;
+  display: block;
+  transition: width 1s ease;
+}
+h4:hover::after {
+  width: 68%;
+}
+.buttonclass a {
+  color: gold;
+  padding-top: 40px;
+}
+
+.contact {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  grid-template-rows: repeat(5, 1fr);
+  gap: 8px;
+}
+
+.Pin {
+  grid-column: span 2 / span 2;
+  grid-row: span 4 / span 4;
+}
+
+.Phone {
+  grid-column: span 2 / span 2;
+  grid-row: span 4 / span 4;
+  grid-column-start: 3;
+}
+
+.Email {
+  grid-column: span 2 / span 2;
+  grid-row: span 4 / span 4;
+  grid-column-start: 5;
+}
+
+p {
+  color: white;
+  text-align: center;
+  font-size: 24px;
+}
+.div2 a {
+  color: gold;
+}
+.careerspara {
+  color: white;
+  font-size: 21px;
+}
+h3 {
+  color: white;
+  text-decoration: underline gold 3px;
+  text-align: center;
+}
+aside {
+  color: white;
+  font-size: 21px;
+}
+span {
+  color: white;
+  font-size: 21px;
+}
+span a {
+  color: white;
+}
+.form {
+  padding-left: 300px;
+  padding-top: 40px;
+  text-align: center;
+
+  height: 200px;
+  width: 50%;
+  border-radius: 10px;
+}
+label {
+  padding: 20px;
+  color: whitesmoke;
+}
+.form1 {
+  padding-right: 200px;
+  padding-left: 20%;
+  gap: 20px;
+}
+.l3 {
+  font-size: 15px;
+  padding-right: 20px;
+}
+.submit {
+  background-color: gold;
+  border-radius: 7px;
+}
+.submit a {
+  color: black;
+  font-weight: bold;
+}
+.footer {
+  justify-items: center;
+  align-self: center;
+  transition: 1s ease;
+}
+.footer:hover {
+  transform: scale(1.1);
+}
+.footer::after {
+  content: "";
+  background-color: gold;
+  width: 0;
+  height: 3px;
+  display: block;
+  transition: width 1s ease;
+}
+.footer:hover::after {
+  width: 60%;
+}
+.Pin {
+  transition: all 1s ease;
+}
+.Pin a {
+  color: white;
+  transition: all 1s ease;
+}
+.Pin:hover {
+  transform: scale(1.09);
+}
+.Phone {
+  transition: all 1s ease;
+}
+.Phone:hover {
+  transform: scale(1.09);
+}
+.Phone a {
+  color: white;
+  transition: all 1s ease;
+}
+.Email {
+  transition: all 1s ease;
+}
+.Email:hover {
+  transform: scale(1.09);
+}
+.Email a {
+  color: white;
+  transition: all 1s ease;
+}
